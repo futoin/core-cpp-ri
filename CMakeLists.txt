@@ -12,8 +12,8 @@ HunterGate(
     SHA1 "51d2d6be411251c8de18c4ca20ef778880cf4cce"
 )
 
-add_subdirectory(externals/core-cpp-api ${CMAKE_BINARY_DIR}/futoin_api)
-add_subdirectory(externals/core-cpp-ri-asyncsteps ${CMAKE_BINARY_DIR}/futoin_asyncsteps)
+add_subdirectory(externals/core-cpp-api)
+add_subdirectory(externals/core-cpp-ri-asyncsteps)
 
 #--------------------------------------
 # Project definition

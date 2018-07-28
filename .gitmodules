@@ -1,0 +1,8 @@
+[submodule "externals/core-cpp-api"]
+	path = externals/core-cpp-api
+	url = ../core-cpp-api
+	branch = master
+[submodule "externals/core-cpp-ri-asyncsteps"]
+	path = externals/core-cpp-ri-asyncsteps
+	url = ../core-cpp-ri-asyncsteps
+	branch = master
