@@ -44,3 +44,10 @@ if (FUTOIN_API_WITH_DOCS AND False)
 endif()
 
 #--------------------------------------
+if (FUTOIN_WITH_TESTS)
+    # Note: this stuff must be called in root CMakeLists.txt
+    # to make "test" target available.
+    include(CTest)
+
+    enable_testing()
+endif()
