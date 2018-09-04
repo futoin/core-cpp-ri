@@ -31,16 +31,14 @@ option(FUTOIN_WITH_DOCS "Build documentation" ON)
 #--------------------------------------
 # Build documentation
 #--------------------------------------
-if (FUTOIN_API_WITH_DOCS AND False)
+if (FUTOIN_WITH_DOCSAND AND FALSE)
     find_package(Doxygen REQUIRED dot)
     
     add_custom_target(
-        docs-asyncsteps ALL
-        COMMAND ${DOXYGEN_EXECUTABLE}
+        docs-futoin ALL
+        COMMAND ${CMAKE_COMMAND} -E env "BUILD_DIR=${CMAKE_CURRENT_BINARY_DIR}" ${DOXYGEN_EXECUTABLE}
         WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
     )
-    # prevent Doxygen segfault on invalid code
-    add_dependencies(docs ${PROJECT_NAME})
 endif()
 
 #--------------------------------------
