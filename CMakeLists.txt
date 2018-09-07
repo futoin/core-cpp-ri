@@ -20,7 +20,7 @@ add_subdirectory(externals/core-cpp-ri-asyncsteps)
 #--------------------------------------
 
 project(futoin_core_ri
-        VERSION "0.0.1" # AUTO-REPLACE
+        VERSION "0.1.0" # AUTO-REPLACE
         LANGUAGES CXX)
 
 # Options
