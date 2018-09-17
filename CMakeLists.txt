@@ -14,6 +14,7 @@ HunterGate(
 
 add_subdirectory(externals/core-cpp-api)
 add_subdirectory(externals/core-cpp-ri-asyncsteps)
+add_subdirectory(externals/core-cpp-ri-asyncevent)
 
 #--------------------------------------
 # Project definition

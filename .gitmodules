@@ -6,3 +6,6 @@
 	path = externals/core-cpp-ri-asyncsteps
 	url = ../core-cpp-ri-asyncsteps
 	branch = master
+[submodule "externals/core-cpp-ri-asyncevent"]
+	path = externals/core-cpp-ri-asyncevent
+	url = ../core-cpp-ri-asyncevent
