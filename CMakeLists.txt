@@ -21,7 +21,7 @@ add_subdirectory(externals/core-cpp-ri-asyncevent)
 #--------------------------------------
 
 project(futoin_core_ri
-        VERSION "0.1.0" # AUTO-REPLACE
+        VERSION "0.2.0" # AUTO-REPLACE
         LANGUAGES CXX)
 
 # Options
