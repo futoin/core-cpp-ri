@@ -32,7 +32,7 @@ option(FUTOIN_WITH_DOCS "Build documentation" ON)
 #--------------------------------------
 # Build documentation
 #--------------------------------------
-if (FUTOIN_WITH_DOCSAND AND FALSE)
+if (FUTOIN_WITH_DOCS AND FALSE)
     find_package(Doxygen REQUIRED dot)
     
     add_custom_target(
