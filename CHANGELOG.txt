@@ -1,5 +1,5 @@
 
-=== (next) ===
+=== 0.2.2 (2023-03-29) ===
 CHANGED: updated core-cpp-api to 0.2.3, core-cpp-ri-asyncsteps to 1.3.2, core-cpp-ri-asyncevent to 1.0.1
 CHANGED: updated to the latest Hunter
 
